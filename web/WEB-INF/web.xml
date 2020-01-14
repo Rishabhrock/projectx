@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>Loginpage</servlet-name>
+        <servlet-class>com.rishabh.demo.Loginpage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Loginpage</servlet-name>
+        <url-pattern>/Loginpage/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ctc</servlet-name>
+        <servlet-class>com.rishabh.demo.ctc</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>ctc</servlet-name>
+        <url-pattern>/ctc/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Basic</servlet-name>
+        <servlet-class>com.rishabh.demo.Basic</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Basic</servlet-name>
+        <url-pattern>/Basic/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Bonus</servlet-name>
+        <servlet-class>com.rishabh.demo.Bonus</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Bonus</servlet-name>
+        <url-pattern>/Bonus/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ContributionAndGross</servlet-name>
+        <servlet-class>com.rishabh.demo.ContributionAndGross</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>ContributionAndGross</servlet-name>
+        <url-pattern>/ContributionAndGross/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GrossDeduction</servlet-name>
+        <servlet-class>com.rishabh.demo.GrossDeduction</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>GrossDeduction</servlet-name>
+        <url-pattern>/GrossDeduction/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NetPay</servlet-name>
+        <servlet-class>com.rishabh.demo.NetPay</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>NetPay</servlet-name>
+        <url-pattern>/NetPay/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>HomeRentAllowance</servlet-name>
+        <servlet-class>com.rishabh.demo.HomeRentAllowance</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>HomeRentAllowance</servlet-name>
+        <url-pattern>/HomeRentAllowance/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NetTakeHome</servlet-name>
+        <servlet-class>com.rishabh.demo.NetTakeHome</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>NetTakeHome</servlet-name>
+        <url-pattern>/NetTakeHome/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Difference</servlet-name>
+        <servlet-class>com.rishabh.demo.Difference</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Difference</servlet-name>
+        <url-pattern>/Difference/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>PtGross</servlet-name>
+        <servlet-class>com.rishabh.demo.PtGross</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>PtGross</servlet-name>
+        <url-pattern>/PtGross/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.rishabh.demo.Register</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Contoller</servlet-name>
+        <servlet-class>com.rishabh.demo.Contoller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Contoller</servlet-name>
+        <url-pattern>/Contoller/*</url-pattern>
+    </servlet-mapping>
+</web-app>
